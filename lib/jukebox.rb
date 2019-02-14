@@ -52,10 +52,16 @@ def run (arr)
   while(answer!="exit")
     if(answer=="help")
       help
+      puts "Please enter a command:"
+      answer=gets.chomp
     elsif(answer=="list")
       list(arr)
+      puts "Please enter a command:"
+      answer=gets.chomp
     elsif(answer=="play")
       play(arr)
+      puts "Please enter a command:"
+      answer=gets.chomp
     else
       puts "Invalid input please try again:"
       answer=gets.chomp
