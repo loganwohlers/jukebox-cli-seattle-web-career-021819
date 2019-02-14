@@ -70,4 +70,4 @@ def run (arr)
   exit
 end
   
-run(songs)
+#run(songs)
